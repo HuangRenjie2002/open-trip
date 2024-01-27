@@ -3,18 +3,4 @@ server:
 spring:
   profiles:
     active: dev
-  datasource:
-      url: jdbc:mysql://${trip.datasource.host}:${trip.datasource.port}/${trip.datasource.database}
-      username: ${trip.datasource.username}
-      password: ${trip.datasource.password}
-      driver-class-name: ${trip.datasource.driver-class-name}
-  main:
-    allow-circular-references: true
-
-
-mybatis-plus:
-  mapper-locations: "classpath*:/mapper/**/*.xml"
-  configuration:
-    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
-    map-underscore-to-camel-case: true
 
