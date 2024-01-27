@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.0.60:3306/trip?characterEncoding=utf8&serverTimezone=UTC
+    url: jdbc:mysql://rm-cn-nwy3l36qw0005jko.rwlb.rds.aliyuncs.com:3306/trip?characterEncoding=utf8&serverTimezone=UTC
     username: trip_dev
     password: trip_dev
